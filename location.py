@@ -13,7 +13,7 @@ locations = {
     "ali": Location(name="Ali", location="Lahore"),
 }
 
-# depency function
+# depency functionsqlmodel
 def get_location_or_404(name:str)->Location:
     loc = locations.get(name.lower())
     if not loc:
