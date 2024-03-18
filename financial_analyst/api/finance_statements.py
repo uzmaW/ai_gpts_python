@@ -1,6 +1,6 @@
 import requests
 import json 
-
+from settings import FMP_API_KEY
 # Define financial statement functions
 def get_income_statement(ticker, period, limit):
     url = f"https://financialmodelingprep.com/api/v3/income-statement/{ticker}?period={period}&limit={limit}&apikey={FMP_API_KEY}"
