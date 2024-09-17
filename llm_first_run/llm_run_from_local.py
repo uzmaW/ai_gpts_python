@@ -3,7 +3,7 @@
 import requests
 
 # URL for the API endpoint
-url = 'https://5c85-34-16-0-60.ngrok-free.app/api/generate'
+url = 'https://71f2-34-125-49-122.ngrok-free.app/api/generate'
 
 # Function to make the POST request
 def make_request(prompt):
