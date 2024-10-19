@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package mart;
+
+message OrderItem {
+  string product_id = 1;
+  int32 quantity = 2;
+  double price = 3;
+}
+
+message CustomerOrder {
+  string order_id = 1;
+  string customer_id = 2;
+  repeated OrderItem items = 3;
+  double total_amount = 4;
+}
